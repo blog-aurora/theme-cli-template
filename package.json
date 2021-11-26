@@ -1,14 +1,14 @@
 {
-  "name": "aurora-blog",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "这是一个vuepress的博客主题",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "author": "",
+  "author": "qsyyke",
   "license": "ISC",
   "dependencies": {
     "vuepress": "^2.0.0-beta.27",
