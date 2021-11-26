@@ -448,12 +448,8 @@ module.exports = {
             },
         ],
 
-        // cancelIcoHref: "https://ooszy.cco.vin/img/ico/quxiao.svg", 在v1.3.2中移除
-
         //logo旁文字 默认值为Aurora
-        logoTitle: "Aurora",
-
-        headTitle: "this is headTitle",
+        logoTitle: "{{logoTitle}}",
 
         //站点描述
         description: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
