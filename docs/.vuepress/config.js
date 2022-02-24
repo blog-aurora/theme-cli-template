@@ -46,9 +46,9 @@ module.exports = {
         [
             "coze",
             {
-                appId: '2A2Dyd2AffrnldhwftlEddVn-MdYXbMMI',
-                appKey: 'qHYTbb91iOPLelyC9lpbXxLH',
-                masterKey: 'eUwfvS3luIPnPiHS5SpEhDYr',
+                appId: '2A2Dyd2Affrnldhwftlaaa',//你需要在leancloud中创建自己的appId，请参照文档https://aurora.xcye.xyz/plugin/coze/
+                appKey: 'qHYTbb91iOPLelyC9aaa',
+                masterKey: 'eUwfvS3luIPnPiaaa',
                 //下面这些是可选的
                 avatarPath: '/avatar.jpg',//说说头像url
                 registerPath: '/register', //自定义插件默认提供的注册页面路由，请在前面加上/
@@ -801,6 +801,13 @@ module.exports = {
        * 如果你以前使用的是其他的主题，比如hexo，reco等等，发现frontmatter中的类别并不是使用categories字段，而是使用比如category进行设置的
        * 那么你可以像customCategoriesName: "category"这样自定义类别的字段，此配置仅仅针对于md文件设置的类别并不是使用categories字段，请注意，谨慎使用
        * */
-        //customCategoriesName: "category"
+        //customCategoriesName: "category",
+
+        /*
+        * 下面这个是v1.13版本新增的配置项
+        * */
+
+        //是否显示关于页面气泡效果 默认开启
+        showAboutPageBubble: true,
     }
 };
